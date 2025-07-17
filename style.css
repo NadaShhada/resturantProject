@@ -1,0 +1,183 @@
+body{
+    background-color: snow;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    height:40px;
+color: white;
+padding: 0px 60px;
+    justify-content:space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+   list-style: none;
+}
+nav button{
+    display: none;
+}
+
+.heroDiv {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+   background-color: beige;
+   height: 200px;
+   align-items: center;
+   padding-right: 20px;
+   border-radius: 10px;
+   margin-right: 40px;
+   margin-left: 40px;
+   box-shadow: darkgray;
+}
+.heroSection  img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 7px;
+    border-color: brown;
+    border-style: solid;
+}
+.TextHeroSection {
+display: block;
+}
+.Information-list{
+    display: flex;
+gap: 15px;
+}
+.Information-card img{
+    width: 40px;
+    height: 40px;
+   
+}
+.Information-card p{
+    margin-top: -1px;
+    line-height: 3ch;
+}
+.Information h2{
+    text-align: center;
+}
+.Information-card h4{
+    margin-top:10px;
+    color: brown;
+    font-size: medium;
+    font-weight: normal;
+}
+.Information-card{
+padding: 10px 10px;
+
+margin-left: 10px;
+margin-right: 10px;
+    border-radius: 7px;
+    background-color: beige;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.buttons button{
+  border-radius: 7px;
+  background-color: beige;
+border-color: darkgray;
+}
+.foodMenu h2{
+text-align: center;
+}
+.buttons button:active{
+    background-color: brown;
+    color: beige;
+}
+.card{margin-top: 25px;
+    position: relative;
+    border-radius: 7px;
+    width: 220px;
+    height:150px ;
+    background-color: beige;
+    display: flex;
+    gap: 10px;
+    text-align: start;
+}
+
+.Name{
+    color: brown;
+}
+
+.card img{
+margin-top: 20%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.price{
+right: 40%;
+top:  70%;
+position: absolute; 
+   background-color:  khaki;
+    color: brown;
+    width: 70px;
+}
+.menuCards{
+
+    
+display: grid;
+grid-template-columns: repeat(3,230px);
+align-items: center;
+justify-content: center;
+justify-items: center;
+
+grid-gap: 0px 0px;
+}
+.footerContainer{
+    display: flex;
+    gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.ConnectInformation span{
+    font-weight: bold;
+
+}
+.ConnectInformation{
+    background-color: beige;
+    width: 300px
+    ;
+    height: 200px;
+    border-radius: 7px;
+}
+ small{text-align: center;
+display: block;
+    background-color: brown;
+   width: 100%;
+color: white;
+padding: 10px 10px;
+margin-top: 20px;
+}
+ h2{
+    text-align: center;
+}
+.location iframe{
+    border-radius: 7px;
+}
+@media (max-width:700px){
+    nav ul{
+        display: none;
+    }  
+    nav button{
+        display: block;
+    }
+
+}
